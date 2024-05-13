@@ -26,6 +26,7 @@ class MmFileInfo {
     this.width,
     this.height,
     this.hasPreviewImage,
+    this.miniPreview,
   });
 
   /// The unique identifier for this file
@@ -145,6 +146,9 @@ class MmFileInfo {
   ///
   bool? hasPreviewImage;
 
+  /// Custom added filed
+  String? miniPreview;
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -240,8 +244,10 @@ class MmFileInfo {
       // Note 2: this code is stripped in release mode!
       assert(() {
         requiredKeys.forEach((key) {
-          assert(json.containsKey(key), 'Required key "MmFileInfo[$key]" is missing from JSON.');
-          assert(json[key] != null, 'Required key "MmFileInfo[$key]" has a null value in JSON.');
+          assert(json.containsKey(key),
+              'Required key "MmFileInfo[$key]" is missing from JSON.');
+          assert(json[key] != null,
+              'Required key "MmFileInfo[$key]" has a null value in JSON.');
         });
         return true;
       }());
@@ -260,6 +266,7 @@ class MmFileInfo {
         width: mapValueOfType<int>(json, r'width'),
         height: mapValueOfType<int>(json, r'height'),
         hasPreviewImage: mapValueOfType<bool>(json, r'has_preview_image'),
+        miniPreview: mapValueOfType<String>(json, r'mini_preview'),
       );
     }
     return null;
