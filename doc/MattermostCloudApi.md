@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostCloudApi
+# mattermost_api_plus.api.MattermostCloudApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -34,7 +34,7 @@ Confirms the payment setup intent initiated when posting to `/cloud/payment`. ##
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -96,7 +96,7 @@ Creates a customer setup payment intent for the given Mattermost cloud installat
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -155,7 +155,7 @@ Retrieves the customer information for the Mattermost Cloud customer bound to th
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -214,7 +214,7 @@ Retrieve any cloud workspace limits applicable to this instance. ##### Permissio
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -273,7 +273,7 @@ Retrieve a list of all products that are offered for Mattermost Cloud. ##### Per
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -332,7 +332,7 @@ Retrieves the PDF for the invoice passed as parameter ##### Permissions Must hav
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -394,7 +394,7 @@ Retrieves the invoices for the subscription bound to this installation. ##### Pe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -453,7 +453,7 @@ Retrieves the subscription information for the Mattermost Cloud customer bound t
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -512,7 +512,7 @@ An endpoint that returns stats about a user's subscription. For example remainin
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -571,7 +571,7 @@ An endpoint for processing webhooks from the Customer Portal ##### Permissions T
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -629,7 +629,7 @@ An endpoint that triggers sending emails to all sys admins to request them to up
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -687,7 +687,7 @@ An endpoint that triggers sending emails to all sys admins to request them to up
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -745,7 +745,7 @@ Updates the customer information for the Mattermost Cloud customer bound to this
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -808,7 +808,7 @@ Updates the company address for the Mattermost Cloud customer bound to this inst
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostRootApi
 void main() {
@@ -19,12 +18,11 @@ void main() {
   group('tests for MattermostRootApi', () {
     // Acknowledge receiving of a notification
     //
-    // __Minimum server version__: 3.10 ##### Permissions Must be logged in. 
+    // __Minimum server version__: 3.10 ##### Permissions Must be logged in.
     //
     //Future<MmPushNotification> acknowledgeNotification() async
     test('test acknowledgeNotification', () async {
       // TODO
     });
-
   });
 }

@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostBotsApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostBotsApi', () {
     // Assign a bot to a user
     //
-    // Assign a bot to a specified user. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10 
+    // Assign a bot to a specified user. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10
     //
     //Future<MmBot> assignBot(String botUserId, String userId) async
     test('test assignBot', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Convert a bot into a user
     //
-    // Convert a bot into a user.  __Minimum server version__: 5.26  ##### Permissions Must have `manage_system` permission. 
+    // Convert a bot into a user.  __Minimum server version__: 5.26  ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmStatusOK> convertBotToUser(String botUserId, MmConvertBotToUserRequest mmConvertBotToUserRequest, { bool setSystemAdmin }) async
     test('test convertBotToUser', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // Convert a user into a bot
     //
-    // Convert a user into a bot.  __Minimum server version__: 5.26  ##### Permissions Must have `manage_system` permission. 
+    // Convert a user into a bot.  __Minimum server version__: 5.26  ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmStatusOK> convertUserToBot(String userId) async
     test('test convertUserToBot', () async {
@@ -46,7 +45,7 @@ void main() {
 
     // Create a bot
     //
-    // Create a new bot account on the system. Username is required. ##### Permissions Must have `create_bot` permission. __Minimum server version__: 5.10 
+    // Create a new bot account on the system. Username is required. ##### Permissions Must have `create_bot` permission. __Minimum server version__: 5.10
     //
     //Future<MmBot> createBot(MmCreateBotRequest mmCreateBotRequest) async
     test('test createBot', () async {
@@ -55,7 +54,7 @@ void main() {
 
     // Delete bot's LHS icon image
     //
-    // Delete bot's LHS icon image based on bot_user_id string parameter. ##### Permissions Must have `manage_bots` permission. __Minimum server version__: 5.14 
+    // Delete bot's LHS icon image based on bot_user_id string parameter. ##### Permissions Must have `manage_bots` permission. __Minimum server version__: 5.14
     //
     //Future<MmStatusOK> deleteBotIconImage(String botUserId) async
     test('test deleteBotIconImage', () async {
@@ -64,7 +63,7 @@ void main() {
 
     // Disable a bot
     //
-    // Disable a bot. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10 
+    // Disable a bot. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10
     //
     //Future<MmBot> disableBot(String botUserId) async
     test('test disableBot', () async {
@@ -73,7 +72,7 @@ void main() {
 
     // Enable a bot
     //
-    // Enable a bot. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10 
+    // Enable a bot. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10
     //
     //Future<MmBot> enableBot(String botUserId) async
     test('test enableBot', () async {
@@ -82,7 +81,7 @@ void main() {
 
     // Get a bot
     //
-    // Get a bot specified by its bot id. ##### Permissions Must have `read_bots` permission for bots you are managing, and `read_others_bots` permission for bots others are managing. __Minimum server version__: 5.10 
+    // Get a bot specified by its bot id. ##### Permissions Must have `read_bots` permission for bots you are managing, and `read_others_bots` permission for bots others are managing. __Minimum server version__: 5.10
     //
     //Future<MmBot> getBot(String botUserId, { bool includeDeleted }) async
     test('test getBot', () async {
@@ -91,7 +90,7 @@ void main() {
 
     // Get bot's LHS icon
     //
-    // Get a bot's LHS icon image based on bot_user_id string parameter. ##### Permissions Must be logged in. __Minimum server version__: 5.14 
+    // Get a bot's LHS icon image based on bot_user_id string parameter. ##### Permissions Must be logged in. __Minimum server version__: 5.14
     //
     //Future getBotIconImage(String botUserId) async
     test('test getBotIconImage', () async {
@@ -100,7 +99,7 @@ void main() {
 
     // Get bots
     //
-    // Get a page of a list of bots. ##### Permissions Must have `read_bots` permission for bots you are managing, and `read_others_bots` permission for bots others are managing. __Minimum server version__: 5.10 
+    // Get a page of a list of bots. ##### Permissions Must have `read_bots` permission for bots you are managing, and `read_others_bots` permission for bots others are managing. __Minimum server version__: 5.10
     //
     //Future<List<MmBot>> getBots({ int page, int perPage, bool includeDeleted, bool onlyOrphaned }) async
     test('test getBots', () async {
@@ -109,7 +108,7 @@ void main() {
 
     // Patch a bot
     //
-    // Partially update a bot by providing only the fields you want to update. Omitted fields will not be updated. The fields that can be updated are defined in the request body, all other provided fields will be ignored. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10 
+    // Partially update a bot by providing only the fields you want to update. Omitted fields will not be updated. The fields that can be updated are defined in the request body, all other provided fields will be ignored. ##### Permissions Must have `manage_bots` permission.  __Minimum server version__: 5.10
     //
     //Future<MmBot> patchBot(String botUserId, MmCreateBotRequest mmCreateBotRequest) async
     test('test patchBot', () async {
@@ -118,12 +117,11 @@ void main() {
 
     // Set bot's LHS icon image
     //
-    // Set a bot's LHS icon image based on bot_user_id string parameter. Icon image must be SVG format, all other formats are rejected. ##### Permissions Must have `manage_bots` permission. __Minimum server version__: 5.14 
+    // Set a bot's LHS icon image based on bot_user_id string parameter. Icon image must be SVG format, all other formats are rejected. ##### Permissions Must have `manage_bots` permission. __Minimum server version__: 5.14
     //
     //Future<MmStatusOK> setBotIconImage(String botUserId, MultipartFile image) async
     test('test setBotIconImage', () async {
       // TODO
     });
-
   });
 }

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostInsightsApi
+# mattermost_api_plus.api.MattermostInsightsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -24,7 +24,7 @@ Get a list of the top public and private channels (the user is a member of) for 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -93,7 +93,7 @@ Get a list of the top public and private channels (the user is a member of) for 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -164,7 +164,7 @@ Get a list of the top reactions across all public and private channels (the user
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -233,7 +233,7 @@ Get a list of the top reactions across all public and private channels (the user
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

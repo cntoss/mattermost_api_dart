@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostPreferencesApi
+# mattermost_api_plus.api.MattermostPreferencesApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -25,7 +25,7 @@ Delete a list of the user's preferences. ##### Permissions Must be logged in as 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -90,7 +90,7 @@ Get a list of the user's preferences. ##### Permissions Must be logged in as the
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -153,7 +153,7 @@ Lists the current user's stored preferences in the given category. ##### Permiss
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -218,7 +218,7 @@ Gets a single preference for the current user with the given category and name. 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -285,7 +285,7 @@ Save a list of the user's preferences. ##### Permissions Must be logged in as th
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

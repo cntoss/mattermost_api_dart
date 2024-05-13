@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostPostsApi
+# mattermost_api_plus.api.MattermostPostsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -37,7 +37,7 @@ Create a new post in a channel. To create the post as a comment on another post,
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -102,7 +102,7 @@ Create a new ephemeral post in a channel. ##### Permissions Must have `create_po
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -165,7 +165,7 @@ Soft deletes a post, by marking the post as deleted in the database. Soft delete
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -228,7 +228,7 @@ Perform a post action, which allows users to interact with integrations through 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -293,7 +293,7 @@ Gets a list of file information objects for the files attached to a post. ##### 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -358,7 +358,7 @@ Get a page of flagged posts of a user provided user id string. Selects from a ch
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -429,7 +429,7 @@ Get a single post. ##### Permissions Must have `read_channel` permission for the
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -494,7 +494,7 @@ Get a post and the rest of the posts in the same thread. ##### Permissions Must 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -571,7 +571,7 @@ Get the oldest unread post in the channel for the given user as well as the post
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -646,7 +646,7 @@ Fetch a list of posts based on the provided postIDs ##### Permissions Must have 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -709,7 +709,7 @@ Get a page of posts in a channel. Use the query parameters to modify the behavio
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -782,7 +782,7 @@ Partially update a post by providing only the fields you want to update. Omitted
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -847,7 +847,7 @@ Pin a post to a channel it is in based from the provided post id string. ##### P
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -910,7 +910,7 @@ Search posts in the team and from the provided terms string. ##### Permissions M
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -975,7 +975,7 @@ Mark a channel as being unread from a given post. ##### Permissions Must have `r
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1040,7 +1040,7 @@ Unpin a post to a channel it is in based from the provided post id string. #####
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1103,7 +1103,7 @@ Update a post. Only the fields listed below are updatable, omitted fields will b
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

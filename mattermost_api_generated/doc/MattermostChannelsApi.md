@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostChannelsApi
+# mattermost_api_plus.api.MattermostChannelsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -72,7 +72,7 @@ Add a user to a channel by creating a channel member object.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -137,7 +137,7 @@ Autocomplete public channels on a team based on the search term provided in the 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -202,7 +202,7 @@ Autocomplete your channels on a team based on the search term provided in the re
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -267,7 +267,7 @@ Get the set of users who are members of the channel minus the set of users who a
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -335,7 +335,7 @@ Create a new channel. ##### Permissions If creating a public channel, `create_pu
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -398,7 +398,7 @@ Create a new direct message channel between two users. ##### Permissions Must be
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -461,7 +461,7 @@ Create a new group message channel to group of users. If the logged in user's id
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -524,7 +524,7 @@ Create a custom sidebar category for the user on the given team. __Minimum serve
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -591,7 +591,7 @@ Archives a channel. This will set the `deleteAt` to the current timestamp in the
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -654,7 +654,7 @@ Get a list of all channels
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -729,7 +729,7 @@ Get channel from the provided channel id string. ##### Permissions `read_channel
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -792,7 +792,7 @@ Gets channel from the provided team id and channel name strings. ##### Permissio
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -859,7 +859,7 @@ Gets a channel from the provided team name and channel name strings. ##### Permi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -926,7 +926,7 @@ Get a channel member. ##### Permissions `read_channel` permission for the channe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -991,7 +991,7 @@ Returns a set of ChannelMemberCountByGroup objects which contain a `group_id`, `
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1055,7 +1055,7 @@ Get a page of members for a channel. ##### Permissions `read_channel` permission
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1122,7 +1122,7 @@ Get a list of channel members based on the provided user ids. ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1187,7 +1187,7 @@ Get all channel memberships and associated membership roles (i.e. `channel_user`
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1252,7 +1252,7 @@ Get a list of timezones for the users who are in this channel.  __Minimum server
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1315,7 +1315,7 @@ Get information about channel's moderation.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1378,7 +1378,7 @@ Get statistics for a channel. ##### Permissions Must have the `read_channel` per
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1441,7 +1441,7 @@ Get the total unread messages and mentions for a channel for a user. ##### Permi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1506,7 +1506,7 @@ Get all the channels on a team for a user. ##### Permissions Logged in as the us
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1575,7 +1575,7 @@ Get all channels from all teams that a user is a member of.  __Minimum server ve
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1642,7 +1642,7 @@ Get a page of deleted channels on a team based on query string parameters - team
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1709,7 +1709,7 @@ Get a list of pinned posts for channel.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1772,7 +1772,7 @@ Get a page of private channels on a team based on query string parameters - team
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1839,7 +1839,7 @@ Get a list of public channels on a team by id. ##### Permissions `view_team` for
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1904,7 +1904,7 @@ Get a page of public channels on a team based on query string parameters - page 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1971,7 +1971,7 @@ Get a list of sidebar categories that will appear in the user's sidebar on the g
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2036,7 +2036,7 @@ Returns a single sidebar category for the user on the given team. __Minimum serv
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2103,7 +2103,7 @@ Returns the order of the sidebar categories for a user on the given team as an a
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2168,7 +2168,7 @@ Move a channel to another team.  __Minimum server version__: 5.26  ##### Permiss
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2233,7 +2233,7 @@ Partially update a channel by providing only the fields you want to update. Omit
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2298,7 +2298,7 @@ Update a channel's moderation settings.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2363,7 +2363,7 @@ Deletes a single sidebar category for the user on the given team. Only custom ca
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2430,7 +2430,7 @@ Delete a channel member, effectively removing them from a channel.  In server ve
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2495,7 +2495,7 @@ Restore channel from the provided channel id string.  __Minimum server version__
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2558,7 +2558,7 @@ Returns all private and open type channels where 'term' matches on the name, dis
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2623,7 +2623,7 @@ Search archived channels on a team based on the search term provided in the requ
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2688,7 +2688,7 @@ Search public channels on a team based on the search term provided in the reques
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2753,7 +2753,7 @@ Get a list of group channels for a user which members' usernames match the searc
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2816,7 +2816,7 @@ Update a channel. The fields that can be updated are listed as parameters. Omitt
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2881,7 +2881,7 @@ Update a channel member's scheme_admin/scheme_user properties. Typically this sh
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2948,7 +2948,7 @@ Update a user's notification properties for a channel. Only the provided fields 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3015,7 +3015,7 @@ Updates channel's privacy allowing changing a channel from Public to Private and
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3080,7 +3080,7 @@ Update a user's roles for a channel. ##### Permissions Must have `manage_channel
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3147,7 +3147,7 @@ Set a channel's scheme, more specifically sets the scheme_id value of a channel 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3212,7 +3212,7 @@ Update any number of sidebar categories for the user on the given team. This can
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3279,7 +3279,7 @@ Updates a single sidebar category for the user on the given team. __Minimum serv
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3348,7 +3348,7 @@ Updates the order of the sidebar categories for a user on the given team. The pr
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -3415,7 +3415,7 @@ Perform all the actions involved in viewing a channel. This includes marking cha
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

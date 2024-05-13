@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostSearchApi
 void main() {
@@ -19,12 +18,11 @@ void main() {
   group('tests for MattermostSearchApi', () {
     // Search files in a team
     //
-    // Search for files in a team based on file name, extention and file content (if file content extraction is enabled and supported for the files). __Minimum server version__: 5.34 ##### Permissions Must be authenticated and have the `view_team` permission. 
+    // Search for files in a team based on file name, extention and file content (if file content extraction is enabled and supported for the files). __Minimum server version__: 5.34 ##### Permissions Must be authenticated and have the `view_team` permission.
     //
     //Future<MmFileInfoList> searchFiles(String teamId, String terms, bool isOrSearch, { int timeZoneOffset, bool includeDeletedChannels, int page, int perPage }) async
     test('test searchFiles', () async {
       // TODO
     });
-
   });
 }

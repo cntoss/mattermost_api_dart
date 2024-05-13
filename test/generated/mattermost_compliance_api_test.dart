@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostComplianceApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostComplianceApi', () {
     // Create report
     //
-    // Create and save a compliance report. ##### Permissions Must have `manage_system` permission. 
+    // Create and save a compliance report. ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmCompliance> createComplianceReport() async
     test('test createComplianceReport', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Download a report
     //
-    // Download the full contents of a report as a file. ##### Permissions Must have `manage_system` permission. 
+    // Download the full contents of a report as a file. ##### Permissions Must have `manage_system` permission.
     //
     //Future downloadComplianceReport(String reportId) async
     test('test downloadComplianceReport', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // Get a report
     //
-    // Get a compliance reports previously created. ##### Permissions Must have `manage_system` permission. 
+    // Get a compliance reports previously created. ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmCompliance> getComplianceReport(String reportId) async
     test('test getComplianceReport', () async {
@@ -46,12 +45,11 @@ void main() {
 
     // Get reports
     //
-    // Get a list of compliance reports previously created by page, selected with `page` and `per_page` query parameters. ##### Permissions Must have `manage_system` permission. 
+    // Get a list of compliance reports previously created by page, selected with `page` and `per_page` query parameters. ##### Permissions Must have `manage_system` permission.
     //
     //Future<List<MmCompliance>> getComplianceReports({ int page, int perPage }) async
     test('test getComplianceReports', () async {
       // TODO
     });
-
   });
 }

@@ -8,7 +8,7 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
 
 // tests for MmSearchTeamsRequest
@@ -34,25 +34,22 @@ void main() {
       // TODO
     });
 
-    // Filters results to teams where `allow_open_invite` is set to true or false, excludes group constrained channels if this filter option is passed. If this filter option is not passed then the query will remain unchanged. __Minimum server version__: 5.28 
+    // Filters results to teams where `allow_open_invite` is set to true or false, excludes group constrained channels if this filter option is passed. If this filter option is not passed then the query will remain unchanged. __Minimum server version__: 5.28
     // bool allowOpenInvite
     test('to test the property `allowOpenInvite`', () async {
       // TODO
     });
 
-    // Filters results to teams where `group_constrained` is set to true or false, returns the union of results when used with `allow_open_invite` If the filter option is not passed then the query will remain unchanged. __Minimum server version__: 5.28 
+    // Filters results to teams where `group_constrained` is set to true or false, returns the union of results when used with `allow_open_invite` If the filter option is not passed then the query will remain unchanged. __Minimum server version__: 5.28
     // bool groupConstrained
     test('to test the property `groupConstrained`', () async {
       // TODO
     });
 
-    // If set to true, only teams which do not have a granular retention policy assigned to them will be returned. The `sysconsole_read_compliance_data_retention` permission is required to use this parameter. __Minimum server version__: 5.35 
+    // If set to true, only teams which do not have a granular retention policy assigned to them will be returned. The `sysconsole_read_compliance_data_retention` permission is required to use this parameter. __Minimum server version__: 5.35
     // bool excludePolicyConstrained (default value: false)
     test('to test the property `excludePolicyConstrained`', () async {
       // TODO
     });
-
-
   });
-
 }

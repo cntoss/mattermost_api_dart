@@ -8,7 +8,7 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
 
 // tests for MmPostMetadataEmbedsInner
@@ -28,13 +28,10 @@ void main() {
       // TODO
     });
 
-    // Any additional information about the embedded content. Only used at this time to store OpenGraph metadata. This field will be null for non-OpenGraph embeds. 
+    // Any additional information about the embedded content. Only used at this time to store OpenGraph metadata. This field will be null for non-OpenGraph embeds.
     // Map data
     test('to test the property `data`', () async {
       // TODO
     });
-
-
   });
-
 }

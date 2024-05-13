@@ -1,8 +1,8 @@
-name: mattermost_api
+name: mattermost_api_plus
 description: An implementation of the Mattermost API as of 4.0.0.
 version: 0.2.0
 homepage: https://www.jeffmikels.com
-repository: https://github.com/jeffmikels/mattermost_api_dart
+repository: https://github.com/cntoss/mattermost_api_plus_dart
 
 environment:
   sdk: ">=3.0.5 <4.0.0"

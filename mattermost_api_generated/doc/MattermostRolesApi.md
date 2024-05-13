@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostRolesApi
+# mattermost_api_plus.api.MattermostRolesApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -25,7 +25,7 @@ Get a list of all the roles
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -84,7 +84,7 @@ Get a role from the provided role id.  ##### Permissions Requires an active sess
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -147,7 +147,7 @@ Get a role from the provided role name.  ##### Permissions Requires an active se
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -210,7 +210,7 @@ Get a list of roles from their names.  ##### Permissions Requires an active sess
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -273,7 +273,7 @@ Partially update a role by providing only the fields you want to update. Omitted
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

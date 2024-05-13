@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostTermsOfServiceApi
+# mattermost_api_plus.api.MattermostTermsOfServiceApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -24,7 +24,7 @@ Creates new terms of service  __Minimum server version__: 5.4 ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -83,7 +83,7 @@ Get latest terms of service from the server  __Minimum server version__: 5.4 ###
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -142,7 +142,7 @@ Will be deprecated in v6.0 Fetches user's latest terms of service action if the 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -205,7 +205,7 @@ Records user action when they accept or decline custom terms of service. Records
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

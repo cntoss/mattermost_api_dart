@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostUsageApi
+# mattermost_api_plus.api.MattermostUsageApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -21,7 +21,7 @@ Retrieve rounded off total no. of posts for this instance. Example: returns 4000
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

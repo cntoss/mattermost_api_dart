@@ -8,7 +8,7 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
 
 // tests for MmSearchChannelsForRetentionPolicyRequest
@@ -22,31 +22,28 @@ void main() {
       // TODO
     });
 
-    // Filters results to channels belonging to the given team ids 
+    // Filters results to channels belonging to the given team ids
     // List<String> teamIds (default value: const [])
     test('to test the property `teamIds`', () async {
       // TODO
     });
 
-    // Filters results to only return Public / Open channels, can be used in conjunction with `private` to return both `public` and `private` channels 
+    // Filters results to only return Public / Open channels, can be used in conjunction with `private` to return both `public` and `private` channels
     // bool public
     test('to test the property `public`', () async {
       // TODO
     });
 
-    // Filters results to only return Private channels, can be used in conjunction with `public` to return both `private` and `public` channels 
+    // Filters results to only return Private channels, can be used in conjunction with `public` to return both `private` and `public` channels
     // bool private
     test('to test the property `private`', () async {
       // TODO
     });
 
-    // Filters results to only return deleted / archived channels 
+    // Filters results to only return deleted / archived channels
     // bool deleted
     test('to test the property `deleted`', () async {
       // TODO
     });
-
-
   });
-
 }

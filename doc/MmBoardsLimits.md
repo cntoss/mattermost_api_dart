@@ -1,8 +1,8 @@
-# mattermost_api.model.MmBoardsLimits
+# mattermost_api_plus.model.MmBoardsLimits
 
 ## Load the package and get an instance of this class.
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

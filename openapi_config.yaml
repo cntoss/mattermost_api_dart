@@ -1,5 +1,5 @@
 additionalProperties:
-  pubName: mattermost_api
+  pubName: mattermost_api_plus
   pubAuthor: Jeff Mikels
   pubAuthorEmail: jeffmikels@gmail.com
   pubDescription: desc

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostOAuthApi
+# mattermost_api_plus.api.MattermostOAuthApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -28,7 +28,7 @@ Register an OAuth 2.0 client application with Mattermost as the service provider
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -91,7 +91,7 @@ Delete and unregister an OAuth 2.0 client application  ##### Permissions If app 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -154,7 +154,7 @@ Get a page of OAuth 2.0 client applications authorized to access a user's accoun
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -221,7 +221,7 @@ Get an OAuth 2.0 client application registered with Mattermost. ##### Permission
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -284,7 +284,7 @@ Get public information about an OAuth 2.0 client application registered with Mat
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -347,7 +347,7 @@ Get a page of OAuth 2.0 client applications registered with Mattermost. ##### Pe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -412,7 +412,7 @@ Regenerate the client secret for an OAuth 2.0 client application registered with
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -475,7 +475,7 @@ Update an OAuth 2.0 client application based on OAuth struct. ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

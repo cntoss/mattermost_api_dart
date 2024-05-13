@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostInsightsApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostInsightsApi', () {
     // Get a list of the top channels for a team.
     //
-    // Get a list of the top public and private channels (the user is a member of) for a given team. ##### Permissions Must have `view_team` permission for the team. 
+    // Get a list of the top public and private channels (the user is a member of) for a given team. ##### Permissions Must have `view_team` permission for the team.
     //
     //Future<MmTopChannelList> getTopChannelsForTeam(String teamId, String timeRange, { int page, int perPage }) async
     test('test getTopChannelsForTeam', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Get a list of the top channels for a user.
     //
-    // Get a list of the top public and private channels (the user is a member of) for a given user. ##### Permissions Must be logged in as the user. 
+    // Get a list of the top public and private channels (the user is a member of) for a given user. ##### Permissions Must be logged in as the user.
     //
     //Future<MmTopReactionList> getTopChannelsForUser(String userId, String timeRange, { int page, int perPage, String teamId }) async
     test('test getTopChannelsForUser', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // Get a list of the top reactions for a team.
     //
-    // Get a list of the top reactions across all public and private channels (the user is a member of) for a given team. ##### Permissions Must have `view_team` permission for the team. 
+    // Get a list of the top reactions across all public and private channels (the user is a member of) for a given team. ##### Permissions Must have `view_team` permission for the team.
     //
     //Future<MmTopReactionList> getTopReactionsForTeam(String teamId, String timeRange, { int page, int perPage }) async
     test('test getTopReactionsForTeam', () async {
@@ -46,12 +45,11 @@ void main() {
 
     // Get a list of the top reactions for a user.
     //
-    // Get a list of the top reactions across all public and private channels (the user is a member of) for a given user. If no `team_id` is provided, this will also include reactions posted by the given user in direct and group messages. ##### Permissions Must be logged in as the user. 
+    // Get a list of the top reactions across all public and private channels (the user is a member of) for a given user. If no `team_id` is provided, this will also include reactions posted by the given user in direct and group messages. ##### Permissions Must be logged in as the user.
     //
     //Future<MmTopReactionList> getTopReactionsForUser(String userId, String timeRange, { int page, int perPage, String teamId }) async
     test('test getTopReactionsForUser', () async {
       // TODO
     });
-
   });
 }

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostComplianceApi
+# mattermost_api_plus.api.MattermostComplianceApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -24,7 +24,7 @@ Create and save a compliance report. ##### Permissions Must have `manage_system`
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -83,7 +83,7 @@ Download the full contents of a report as a file. ##### Permissions Must have `m
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -145,7 +145,7 @@ Get a compliance reports previously created. ##### Permissions Must have `manage
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -208,7 +208,7 @@ Get a list of compliance reports previously created by page, selected with `page
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

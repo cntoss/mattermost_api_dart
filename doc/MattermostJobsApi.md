@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostJobsApi
+# mattermost_api_plus.api.MattermostJobsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -26,7 +26,7 @@ Cancel a job. __Minimum server version: 4.1__ ##### Permissions Must have `manag
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -89,7 +89,7 @@ Create a new job. __Minimum server version: 4.1__ ##### Permissions Must have `m
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -152,7 +152,7 @@ Download the result of a single job. __Minimum server version: 5.28__ ##### Perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -214,7 +214,7 @@ Gets a single job. __Minimum server version: 4.1__ ##### Permissions Must have `
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -277,7 +277,7 @@ Get a page of jobs. Use the query parameters to modify the behaviour of this end
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -342,7 +342,7 @@ Get a page of jobs of the given type. Use the query parameters to modify the beh
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

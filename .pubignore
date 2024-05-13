@@ -1,6 +1,6 @@
 # Jeff's helper code
 codegen.py
-mattermost_api_generated
+mattermost_api_plus_generated
 openapi_mattermost_templates
 openapi_config.yaml
 mattermost-swagger*

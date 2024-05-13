@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostUploadsApi
+# mattermost_api_plus.api.MattermostUploadsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -23,7 +23,7 @@ Creates a new upload session.  __Minimum server version__: 5.28 ##### Permission
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -86,7 +86,7 @@ Gets an upload session that has been previously created.  ##### Permissions Must
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -148,7 +148,7 @@ Starts or resumes a file upload.   To resume an existing (incomplete) upload, da
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

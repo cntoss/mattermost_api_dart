@@ -1,8 +1,8 @@
-# mattermost_api.model.MmTeamExists
+# mattermost_api_plus.model.MmTeamExists
 
 ## Load the package and get an instance of this class.
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

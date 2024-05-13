@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostAuthenticationApi
+# mattermost_api_plus.api.MattermostAuthenticationApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -22,7 +22,7 @@ Migrates accounts from one authentication provider to another. For example, you 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -84,7 +84,7 @@ Migrates accounts from one authentication provider to another. For example, you 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

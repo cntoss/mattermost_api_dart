@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostThreadsApi
+# mattermost_api_plus.api.MattermostThreadsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -27,7 +27,7 @@ Get all unread mention counts from followed threads  __Minimum server version__:
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -91,7 +91,7 @@ Get a thread  __Minimum server version__: 5.29  ##### Permissions Must be logged
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -157,7 +157,7 @@ Get all threads that user is following  __Minimum server version__: 5.29  ##### 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -234,7 +234,7 @@ Start following a thread  __Minimum server version__: 5.29  ##### Permissions Mu
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -300,7 +300,7 @@ Stop following a thread  __Minimum server version__: 5.29  ##### Permissions Mus
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -366,7 +366,7 @@ Mark a thread that user is following as read  __Minimum server version__: 5.29  
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -434,7 +434,7 @@ Mark all threads that user is following as read  __Minimum server version__: 5.2
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

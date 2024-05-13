@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostElasticsearchApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostElasticsearchApi', () {
     // Purge all Elasticsearch indexes
     //
-    // Deletes all Elasticsearch indexes and their contents. After calling this endpoint, it is necessary to schedule a new Elasticsearch indexing job to repopulate the indexes. __Minimum server version__: 4.1 ##### Permissions Must have `manage_system` permission. 
+    // Deletes all Elasticsearch indexes and their contents. After calling this endpoint, it is necessary to schedule a new Elasticsearch indexing job to repopulate the indexes. __Minimum server version__: 4.1 ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmStatusOK> purgeElasticsearchIndexes() async
     test('test purgeElasticsearchIndexes', () async {
@@ -28,12 +27,11 @@ void main() {
 
     // Test Elasticsearch configuration
     //
-    // Test the current Elasticsearch configuration to see if the Elasticsearch server can be contacted successfully. Optionally provide a configuration in the request body to test. If no valid configuration is present in the request body the current server configuration will be tested.  __Minimum server version__: 4.1 ##### Permissions Must have `manage_system` permission. 
+    // Test the current Elasticsearch configuration to see if the Elasticsearch server can be contacted successfully. Optionally provide a configuration in the request body to test. If no valid configuration is present in the request body the current server configuration will be tested.  __Minimum server version__: 4.1 ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmStatusOK> testElasticsearch() async
     test('test testElasticsearch', () async {
       // TODO
     });
-
   });
 }

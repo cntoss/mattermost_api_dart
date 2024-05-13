@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostSharedChannelsApi
+# mattermost_api_plus.api.MattermostSharedChannelsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -22,7 +22,7 @@ Get all shared channels for a team.  __Minimum server version__: 5.50  ##### Per
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -89,7 +89,7 @@ Get remote cluster info based on remoteId.  __Minimum server version__: 5.50  ##
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

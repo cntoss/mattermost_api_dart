@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostSearchApi
+# mattermost_api_plus.api.MattermostSearchApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -21,7 +21,7 @@ Search for files in a team based on file name, extention and file content (if fi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

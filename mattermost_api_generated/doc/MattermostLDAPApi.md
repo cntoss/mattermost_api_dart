@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostLDAPApi
+# mattermost_api_plus.api.MattermostLDAPApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -30,7 +30,7 @@ Delete the current private key being used with your TLS verification. ##### Perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -89,7 +89,7 @@ Delete the current public certificate being used for TLS verification. ##### Per
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -148,7 +148,7 @@ Returns a list of LDAP groups
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -215,7 +215,7 @@ Link a LDAP group
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -278,7 +278,7 @@ Migrates accounts from one authentication provider to another. For example, you 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -340,7 +340,7 @@ Migrate LDAP IdAttribute to new value. ##### Permissions Must have `manage_syste
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -403,7 +403,7 @@ Synchronize any user attribute changes in the configured AD/LDAP server with Mat
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -462,7 +462,7 @@ Test the current AD/LDAP configuration to see if the AD/LDAP server can be conta
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -521,7 +521,7 @@ Upload the private key to be used for TLS verification. The server will pick a h
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -584,7 +584,7 @@ Upload the public certificate to be used for TLS verification. The server will p
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

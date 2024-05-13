@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostExportsApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostExportsApi', () {
     // Delete an export file
     //
-    // Deletes an export file.   __Minimum server version__: 5.33  ##### Permissions  Must have `manage_system` permissions. 
+    // Deletes an export file.   __Minimum server version__: 5.33  ##### Permissions  Must have `manage_system` permissions.
     //
     //Future deleteExport(String exportName) async
     test('test deleteExport', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Download an export file
     //
-    // Downloads an export file.   __Minimum server version__: 5.33  ##### Permissions  Must have `manage_system` permissions. 
+    // Downloads an export file.   __Minimum server version__: 5.33  ##### Permissions  Must have `manage_system` permissions.
     //
     //Future downloadExport(String exportName) async
     test('test downloadExport', () async {
@@ -37,12 +36,11 @@ void main() {
 
     // List export files
     //
-    // Lists all available export files. __Minimum server version__: 5.33 ##### Permissions Must have `manage_system` permissions. 
+    // Lists all available export files. __Minimum server version__: 5.33 ##### Permissions Must have `manage_system` permissions.
     //
     //Future listExports() async
     test('test listExports', () async {
       // TODO
     });
-
   });
 }

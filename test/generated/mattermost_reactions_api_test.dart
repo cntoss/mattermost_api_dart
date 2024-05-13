@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostReactionsApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostReactionsApi', () {
     // Remove a reaction from a post
     //
-    // Deletes a reaction made by a user from the given post. ##### Permissions Must be user or have `manage_system` permission. 
+    // Deletes a reaction made by a user from the given post. ##### Permissions Must be user or have `manage_system` permission.
     //
     //Future<MmStatusOK> deleteReaction(String userId, String postId, String emojiName) async
     test('test deleteReaction', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Bulk get the reaction for posts
     //
-    // Get a list of reactions made by all users to a given post. ##### Permissions Must have `read_channel` permission for the channel the post is in.  __Minimum server version__: 5.8 
+    // Get a list of reactions made by all users to a given post. ##### Permissions Must have `read_channel` permission for the channel the post is in.  __Minimum server version__: 5.8
     //
     //Future<Map<String, List<MmReaction>>> getBulkReactions(List<String> requestBody) async
     test('test getBulkReactions', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // Get a list of reactions to a post
     //
-    // Get a list of reactions made by all users to a given post. ##### Permissions Must have `read_channel` permission for the channel the post is in. 
+    // Get a list of reactions made by all users to a given post. ##### Permissions Must have `read_channel` permission for the channel the post is in.
     //
     //Future<List<MmReaction>> getReactions(String postId) async
     test('test getReactions', () async {
@@ -46,12 +45,11 @@ void main() {
 
     // Create a reaction
     //
-    // Create a reaction. ##### Permissions Must have `read_channel` permission for the channel the post is in. 
+    // Create a reaction. ##### Permissions Must have `read_channel` permission for the channel the post is in.
     //
     //Future<MmReaction> saveReaction(MmReaction mmReaction) async
     test('test saveReaction', () async {
       // TODO
     });
-
   });
 }

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostIntegrationActionsApi
+# mattermost_api_plus.api.MattermostIntegrationActionsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -22,7 +22,7 @@ Open an interactive dialog using a trigger ID provided by a slash command, or so
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -85,7 +85,7 @@ Endpoint used by the Mattermost clients to submit a dialog. See https://docs.mat
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

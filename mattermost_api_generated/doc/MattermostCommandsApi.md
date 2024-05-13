@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostCommandsApi
+# mattermost_api_plus.api.MattermostCommandsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -30,7 +30,7 @@ Create a command for a team. ##### Permissions `manage_slash_commands` for the t
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -93,7 +93,7 @@ Delete a command based on command id string. ##### Permissions Must have `manage
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -156,7 +156,7 @@ Execute a command on a team. ##### Permissions Must have `use_slash_commands` pe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -219,7 +219,7 @@ Get a command definition based on command id string. ##### Permissions Must have
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -282,7 +282,7 @@ List autocomplete commands in the team. ##### Permissions `view_team` for the te
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -345,7 +345,7 @@ List commands' autocomplete data for the team. ##### Permissions `view_team` for
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -410,7 +410,7 @@ List commands for a team. ##### Permissions `manage_slash_commands` if need list
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -475,7 +475,7 @@ Move a command to a different team based on command id string. ##### Permissions
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -540,7 +540,7 @@ Generate a new token for the command based on command id string. ##### Permissio
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -603,7 +603,7 @@ Update a single command based on command id string and Command struct. ##### Per
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

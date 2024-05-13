@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostBleveApi
 void main() {
@@ -19,12 +18,11 @@ void main() {
   group('tests for MattermostBleveApi', () {
     // Purge all Bleve indexes
     //
-    // Deletes all Bleve indexes and their contents. After calling this endpoint, it is necessary to schedule a new Bleve indexing job to repopulate the indexes. __Minimum server version__: 5.24 ##### Permissions Must have `sysconsole_write_experimental` permission. 
+    // Deletes all Bleve indexes and their contents. After calling this endpoint, it is necessary to schedule a new Bleve indexing job to repopulate the indexes. __Minimum server version__: 5.24 ##### Permissions Must have `sysconsole_write_experimental` permission.
     //
     //Future<MmStatusOK> purgeBleveIndexes() async
     test('test purgeBleveIndexes', () async {
       // TODO
     });
-
   });
 }

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostPermissionsApi
+# mattermost_api_plus.api.MattermostPermissionsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -21,7 +21,7 @@ Returns all the ancillary permissions for the corresponding system console subse
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

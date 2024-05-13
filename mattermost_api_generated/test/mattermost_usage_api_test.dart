@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostUsageApi
 void main() {
@@ -19,12 +18,11 @@ void main() {
   group('tests for MattermostUsageApi', () {
     // Get current usage of posts
     //
-    // Retrieve rounded off total no. of posts for this instance. Example: returns 4000 instead of 4321 ##### Permissions Must be authenticated. __Minimum server version__: 7.0 
+    // Retrieve rounded off total no. of posts for this instance. Example: returns 4000 instead of 4321 ##### Permissions Must be authenticated. __Minimum server version__: 7.0
     //
     //Future<MmPostsUsage> getPostsUsage() async
     test('test getPostsUsage', () async {
       // TODO
     });
-
   });
 }

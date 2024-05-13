@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostSchemesApi
+# mattermost_api_plus.api.MattermostSchemesApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -27,7 +27,7 @@ Create a new scheme.  ##### Permissions Must have `manage_system` permission.  _
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -90,7 +90,7 @@ Soft deletes a scheme, by marking the scheme as deleted in the database.  ##### 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -153,7 +153,7 @@ Get a page of channels which use this scheme. The provided Scheme ID should be f
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -220,7 +220,7 @@ Get a scheme from the provided scheme id.  ##### Permissions Must have `manage_s
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -283,7 +283,7 @@ Get a page of schemes. Use the query parameters to modify the behaviour of this 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -350,7 +350,7 @@ Get a page of teams which use this scheme. The provided Scheme ID should be for 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -417,7 +417,7 @@ Partially update a scheme by providing only the fields you want to update. Omitt
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

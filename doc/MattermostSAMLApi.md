@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostSAMLApi
+# mattermost_api_plus.api.MattermostSAMLApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -31,7 +31,7 @@ Delete the current IDP certificate being used with your SAML configuration. This
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -90,7 +90,7 @@ Delete the current private key being used with your SAML configuration. This wil
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -149,7 +149,7 @@ Delete the current public certificate being used with your SAML configuration. T
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -208,7 +208,7 @@ Get the status of the uploaded certificates and keys in use by your SAML configu
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -267,7 +267,7 @@ Get SAML metadata from the server. SAML must be configured properly. ##### Permi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -326,7 +326,7 @@ Get SAML metadata from the Identity Provider. SAML must be configured properly. 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -389,7 +389,7 @@ Migrates accounts from one authentication provider to another. For example, you 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -451,7 +451,7 @@ Reset the AuthData field of SAML users to their email. This is meant to be used 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -514,7 +514,7 @@ Upload the IDP certificate to be used with your SAML configuration. The server w
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -577,7 +577,7 @@ Upload the private key to be used for encryption with your SAML configuration. T
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -640,7 +640,7 @@ Upload the public certificate to be used for encryption with your SAML configura
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

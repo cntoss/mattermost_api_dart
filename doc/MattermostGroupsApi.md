@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostGroupsApi
+# mattermost_api_plus.api.MattermostGroupsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -44,7 +44,7 @@ Adds members to a custom group.  ##### Permissions Must have `custom_group_manag
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -109,7 +109,7 @@ Create a `custom` type group.  #### Permission Must have `create_custom_group` p
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -171,7 +171,7 @@ Soft deletes a custom group.  ##### Permissions Must have `custom_group_delete` 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -234,7 +234,7 @@ Soft deletes a custom group members.  ##### Permissions Must have `custom_group_
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -299,7 +299,7 @@ Get group from the provided group id string  ##### Permissions Must have `manage
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -362,7 +362,7 @@ Retrieve the stats of a given group.  ##### Permissions Must have `manage_system
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -425,7 +425,7 @@ Get the GroupSyncable object with group_id and channel_id from params ##### Perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -490,7 +490,7 @@ Get the GroupSyncable object with group_id and team_id from params ##### Permiss
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -555,7 +555,7 @@ Retrieve the list of channels associated to the group ##### Permissions Must hav
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -618,7 +618,7 @@ Retrieve the list of teams associated to the group ##### Permissions Must have `
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -681,7 +681,7 @@ Retrieve the list of users associated with a given group.  ##### Permissions Mus
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -748,7 +748,7 @@ Retrieve a list of all groups not associated to a particular channel or team.  `
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -825,7 +825,7 @@ Retrieve the set of groups associated with the channels in the given team groupe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -896,7 +896,7 @@ Retrieve the list of groups associated with a given channel.  ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -965,7 +965,7 @@ Retrieve the list of groups associated with a given team.  __Minimum server vers
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1034,7 +1034,7 @@ Retrieve the list of groups associated to the user  __Minimum server version__: 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1097,7 +1097,7 @@ Link a channel to a group ##### Permissions If the channel is private, you must 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1162,7 +1162,7 @@ Link a team to a group ##### Permissions Must have `manage_team` permission.  __
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1227,7 +1227,7 @@ Partially update a group by providing only the fields you want to update. Omitte
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1292,7 +1292,7 @@ Partially update a GroupSyncable by providing only the fields you want to update
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1359,7 +1359,7 @@ Partially update a GroupSyncable by providing only the fields you want to update
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1426,7 +1426,7 @@ Delete a link from a channel to a group ##### Permissions If the channel is priv
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1491,7 +1491,7 @@ Delete a link from a team to a group ##### Permissions Must have `manage_team` p
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1556,7 +1556,7 @@ Delete a link for LDAP group
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

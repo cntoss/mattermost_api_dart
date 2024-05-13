@@ -8,7 +8,7 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
 
 // tests for MmPluginManifest
@@ -40,7 +40,7 @@ void main() {
       // TODO
     });
 
-    // The minimum Mattermost server version required for the plugin.  Available as server version 5.6. 
+    // The minimum Mattermost server version required for the plugin.  Available as server version 5.6.
     // String minServerVersion
     test('to test the property `minServerVersion`', () async {
       // TODO
@@ -66,8 +66,5 @@ void main() {
     test('to test the property `settingsSchema`', () async {
       // TODO
     });
-
-
   });
-
 }

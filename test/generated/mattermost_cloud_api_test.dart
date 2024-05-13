@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostCloudApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostCloudApi', () {
     // Completes the payment setup intent
     //
-    // Confirms the payment setup intent initiated when posting to `/cloud/payment`. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change. 
+    // Confirms the payment setup intent initiated when posting to `/cloud/payment`. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future confirmCustomerPayment({ String stripeSetupIntentId }) async
     test('test confirmCustomerPayment', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Create a customer setup payment intent
     //
-    // Creates a customer setup payment intent for the given Mattermost cloud installation.  ##### Permissions  Must have `manage_system` permission and be licensed for Cloud.  __Minimum server version__: 5.28 __Note:__: This is intended for internal use and is subject to change. 
+    // Creates a customer setup payment intent for the given Mattermost cloud installation.  ##### Permissions  Must have `manage_system` permission and be licensed for Cloud.  __Minimum server version__: 5.28 __Note:__: This is intended for internal use and is subject to change.
     //
     //Future<MmPaymentSetupIntent> createCustomerPayment() async
     test('test createCustomerPayment', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // Get cloud customer
     //
-    // Retrieves the customer information for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change. 
+    // Retrieves the customer information for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<MmCloudCustomer> getCloudCustomer() async
     test('test getCloudCustomer', () async {
@@ -46,7 +45,7 @@ void main() {
 
     // Get cloud workspace limits
     //
-    // Retrieve any cloud workspace limits applicable to this instance. ##### Permissions Must be authenticated and be licensed for Cloud. __Minimum server version__: 7.0 __Note:__ This is intended for internal use and is subject to change. 
+    // Retrieve any cloud workspace limits applicable to this instance. ##### Permissions Must be authenticated and be licensed for Cloud. __Minimum server version__: 7.0 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<MmProductLimits> getCloudLimits() async
     test('test getCloudLimits', () async {
@@ -55,7 +54,7 @@ void main() {
 
     // Get cloud products
     //
-    // Retrieve a list of all products that are offered for Mattermost Cloud. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change. 
+    // Retrieve a list of all products that are offered for Mattermost Cloud. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<List<MmProduct>> getCloudProducts() async
     test('test getCloudProducts', () async {
@@ -64,7 +63,7 @@ void main() {
 
     // Get cloud invoice PDF
     //
-    // Retrieves the PDF for the invoice passed as parameter ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.30 __Note:__ This is intended for internal use and is subject to change. 
+    // Retrieves the PDF for the invoice passed as parameter ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.30 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future getInvoiceForSubscriptionAsPdf(String invoiceId) async
     test('test getInvoiceForSubscriptionAsPdf', () async {
@@ -73,7 +72,7 @@ void main() {
 
     // Get cloud subscription invoices
     //
-    // Retrieves the invoices for the subscription bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.30 __Note:__ This is intended for internal use and is subject to change. 
+    // Retrieves the invoices for the subscription bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.30 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<List<MmInvoice>> getInvoicesForSubscription() async
     test('test getInvoicesForSubscription', () async {
@@ -82,7 +81,7 @@ void main() {
 
     // Get cloud subscription
     //
-    // Retrieves the subscription information for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change. 
+    // Retrieves the subscription information for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.28 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<MmSubscription> getSubscription() async
     test('test getSubscription', () async {
@@ -91,7 +90,7 @@ void main() {
 
     // GET endpoint for cloud subscription stats
     //
-    // An endpoint that returns stats about a user's subscription. For example remaining seats on a free tier ##### Permissions This endpoint should only be accessed in a Mattermost Cloud instance __Minimum server version__: 5.34 __Note:__ This is intended for internal use and is subject to change. 
+    // An endpoint that returns stats about a user's subscription. For example remaining seats on a free tier ##### Permissions This endpoint should only be accessed in a Mattermost Cloud instance __Minimum server version__: 5.34 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<MmSubscriptionStats> getSubscriptionStats() async
     test('test getSubscriptionStats', () async {
@@ -100,7 +99,7 @@ void main() {
 
     // POST endpoint for CWS Webhooks
     //
-    // An endpoint for processing webhooks from the Customer Portal ##### Permissions This endpoint should only be accessed by CWS, in a Mattermost Cloud instance __Minimum server version__: 5.30 __Note:__ This is intended for internal use and is subject to change. 
+    // An endpoint for processing webhooks from the Customer Portal ##### Permissions This endpoint should only be accessed by CWS, in a Mattermost Cloud instance __Minimum server version__: 5.30 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future postEndpointForCwsWebhooks() async
     test('test postEndpointForCwsWebhooks', () async {
@@ -109,7 +108,7 @@ void main() {
 
     // POST endpoint for triggering sending emails to admin with request to upgrade workspace
     //
-    // An endpoint that triggers sending emails to all sys admins to request them to upgrade the workspace when a user tries to invite more users ##### Permissions This endpoint should only be accessed in a Mattermost Cloud instance __Minimum server version__: 5.34 __Note:__ This is intended for internal use and is subject to change. 
+    // An endpoint that triggers sending emails to all sys admins to request them to upgrade the workspace when a user tries to invite more users ##### Permissions This endpoint should only be accessed in a Mattermost Cloud instance __Minimum server version__: 5.34 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future sendAdminUpgradeRequestEmail() async
     test('test sendAdminUpgradeRequestEmail', () async {
@@ -118,7 +117,7 @@ void main() {
 
     // POST endpoint for triggering sending emails to admin with request to upgrade workspace
     //
-    // An endpoint that triggers sending emails to all sys admins to request them to upgrade the workspace when a user tries to join the workspace ##### Permissions This endpoint should only be accessed in a Mattermost Cloud instance __Minimum server version__: 5.34 __Note:__ This is intended for internal use and is subject to change. 
+    // An endpoint that triggers sending emails to all sys admins to request them to upgrade the workspace when a user tries to join the workspace ##### Permissions This endpoint should only be accessed in a Mattermost Cloud instance __Minimum server version__: 5.34 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future sendAdminUpgradeRequestEmailOnJoin() async
     test('test sendAdminUpgradeRequestEmailOnJoin', () async {
@@ -127,7 +126,7 @@ void main() {
 
     // Update cloud customer
     //
-    // Updates the customer information for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.29 __Note:__ This is intended for internal use and is subject to change. 
+    // Updates the customer information for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.29 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<MmCloudCustomer> updateCloudCustomer(MmUpdateCloudCustomerRequest mmUpdateCloudCustomerRequest) async
     test('test updateCloudCustomer', () async {
@@ -136,12 +135,11 @@ void main() {
 
     // Update cloud customer address
     //
-    // Updates the company address for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.29 __Note:__ This is intended for internal use and is subject to change. 
+    // Updates the company address for the Mattermost Cloud customer bound to this installation. ##### Permissions Must have `manage_system` permission and be licensed for Cloud. __Minimum server version__: 5.29 __Note:__ This is intended for internal use and is subject to change.
     //
     //Future<MmCloudCustomer> updateCloudCustomerAddress(MmAddress mmAddress) async
     test('test updateCloudCustomerAddress', () async {
       // TODO
     });
-
   });
 }

@@ -8,7 +8,7 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
 
 // tests for MmSearchUsersRequest
@@ -70,13 +70,10 @@ void main() {
       // TODO
     });
 
-    // The maximum number of users to return in the results  __Available as of server version 5.6. Defaults to `100` if not provided or on an earlier server version.__ 
+    // The maximum number of users to return in the results  __Available as of server version 5.6. Defaults to `100` if not provided or on an earlier server version.__
     // int limit (default value: 100)
     test('to test the property `limit`', () async {
       // TODO
     });
-
-
   });
-
 }

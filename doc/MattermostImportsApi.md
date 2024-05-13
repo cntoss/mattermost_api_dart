@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostImportsApi
+# mattermost_api_plus.api.MattermostImportsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -21,7 +21,7 @@ Lists all available import files.  __Minimum server version__: 5.31 ##### Permis
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostPluginsApi
+# mattermost_api_plus.api.MattermostPluginsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -31,7 +31,7 @@ Disable a previously enabled plugin. Plugins must be enabled in the server's con
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -94,7 +94,7 @@ Enable a previously uploaded plugin. Plugins must be enabled in the server's con
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -157,7 +157,7 @@ Gets all plugins from the marketplace server, merging data from locally installe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -228,7 +228,7 @@ Retrieves the status that specifies that at least one System Admin has visited t
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -287,7 +287,7 @@ Returns the status for plugins installed anywhere in the cluster  ##### Permissi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -346,7 +346,7 @@ Get a list of inactive and a list of active plugin manifests. Plugins must be en
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -405,7 +405,7 @@ Get a list of web app plugins installed and activated on the server.  ##### Perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -464,7 +464,7 @@ Installs a plugin listed in the marketplace server.  ##### Permissions Must have
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -527,7 +527,7 @@ Supply a URL to a plugin compressed in a .tar.gz file. Plugins must be enabled i
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -592,7 +592,7 @@ Remove the plugin with the provided ID from the server. All plugin files are del
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -655,7 +655,7 @@ Upload a plugin that is contained within a compressed .tar.gz file. Plugins and 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostDataRetentionApi
+# mattermost_api_plus.api.MattermostDataRetentionApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -37,7 +37,7 @@ Adds channels to a granular data retention policy.   __Minimum server version__:
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -102,7 +102,7 @@ Adds teams to a granular data retention policy.   __Minimum server version__: 5.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -167,7 +167,7 @@ Creates a new granular data retention policy with the specified display name and
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -230,7 +230,7 @@ Deletes a granular data retention policy.  __Minimum server version__: 5.35  ###
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -293,7 +293,7 @@ Gets the policies which are applied to the all of the channels to which a user b
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -360,7 +360,7 @@ Gets the channels to which a granular data retention policy is applied.  __Minim
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -427,7 +427,7 @@ Gets details about the granular (i.e. team or channel-specific) data retention p
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -492,7 +492,7 @@ Gets the number of granular (i.e. team or channel-specific) data retention polic
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -551,7 +551,7 @@ Gets the current global data retention policy details from the server, including
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -610,7 +610,7 @@ Gets details about a granular data retention policies by ID.  __Minimum server v
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -673,7 +673,7 @@ Gets the policies which are applied to the all of the teams to which a user belo
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -740,7 +740,7 @@ Gets the teams to which a granular data retention policy is applied.  __Minimum 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -807,7 +807,7 @@ Patches (i.e. replaces the fields of) a granular data retention policy. If any f
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -872,7 +872,7 @@ Delete channels from a granular data retention policy.   __Minimum server versio
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -937,7 +937,7 @@ Delete teams from a granular data retention policy.   __Minimum server version__
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1002,7 +1002,7 @@ Searches for the channels to which a granular data retention policy is applied. 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1067,7 +1067,7 @@ Searches for the teams to which a granular data retention policy is applied.  __
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

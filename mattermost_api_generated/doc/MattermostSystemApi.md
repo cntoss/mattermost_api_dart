@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostSystemApi
+# mattermost_api_plus.api.MattermostSystemApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -59,7 +59,7 @@ Performs a database integrity check.   __Note__: This check may temporarily harm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -118,7 +118,7 @@ Marks the server as not having high load which re-enables non-critical services 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -177,7 +177,7 @@ Recycle database connections by closing and reconnecting all connections to mast
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -236,7 +236,7 @@ Download a zip file which contains helpful and useful information for troublesho
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -294,7 +294,7 @@ Get some analytics data about the system. This endpoint uses the old format, the
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -358,7 +358,7 @@ Get a page of audits for all users on the system, selected with `page` and `per_
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -423,7 +423,7 @@ Get a subset of the server configuration needed by the client. ##### Permissions
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -485,7 +485,7 @@ Get a subset of the server license needed by the client. ##### Permissions No pe
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -547,7 +547,7 @@ Retrieve the current server configuration ##### Permissions Must have `manage_sy
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -606,7 +606,7 @@ Retrieve a json object mirroring the server configuration where fields are set t
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -665,7 +665,7 @@ Fetches an image via Mattermost image proxy. __Minimum server version__: 3.10 ##
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -724,7 +724,7 @@ Get a page of server logs, selected with `page` and `logs_per_page` query parame
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -789,7 +789,7 @@ Will return appropriate product notices for current user in the team specified b
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -858,7 +858,7 @@ Check if the server is up and healthy based on the configuration setting `GoRout
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -923,7 +923,7 @@ __Minimum server version__: 3.10 ##### Permissions Must be logged in.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -986,7 +986,7 @@ Gets the timestamp corresponding to when the server busy flag will be automatica
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1045,7 +1045,7 @@ __Minimum server version__: 3.10 ##### Permissions Must be logged in.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1104,7 +1104,7 @@ Get the status of a set of metrics (enabled or disabled) from the Systems table.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1163,7 +1163,7 @@ Purge all the in-memory caches for the Mattermost server. This can have a tempor
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1222,7 +1222,7 @@ Will mark the specified notices as 'viewed' by the logged in user. __Minimum ser
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1285,7 +1285,7 @@ Submit configuration to patch. As of server version 4.8, the `PluginSettings.Ena
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1348,7 +1348,7 @@ Add log messages to the server logs. ##### Permissions Users with `manage_system
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1411,7 +1411,7 @@ Reload the configuration file to pick up on any changes made to it. ##### Permis
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1470,7 +1470,7 @@ Remove the license file from the server. This will disable all enterprise featur
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1528,7 +1528,7 @@ Request the renewal link that would be used to start the license renewal process
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1587,7 +1587,7 @@ Request and install a trial license for your server __Minimum server version__: 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1649,7 +1649,7 @@ It restarts the current running mattermost instance to execute the new Enterpris
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1708,7 +1708,7 @@ Request a trial license and acknowledge a warning for the warn_metric_id metric 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1771,7 +1771,7 @@ Acknowledge a warning for the warn_metric_id metric crossing a threshold (or som
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1836,7 +1836,7 @@ Marks the server as currently having high load which disables non-critical servi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1899,7 +1899,7 @@ Send a test email to make sure you have your email settings configured correctly
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1962,7 +1962,7 @@ Send a test to validate if can connect to AWS S3. Optionally provide a configura
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2025,7 +2025,7 @@ Sends a Ping request to the mattermost server using the specified Site URL.  ###
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2088,7 +2088,7 @@ Get the last trial license used on the sevrer __Minimum server version__: 5.36 #
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2146,7 +2146,7 @@ Submit a new configuration for the server to use. As of server version 4.8, the 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2209,7 +2209,7 @@ Stores the system-level status that specifies that at least an admin has visited
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2272,7 +2272,7 @@ It downloads the Mattermost Enterprise Edition of your current version and repla
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2331,7 +2331,7 @@ It returns the percentage of completion of the current upgrade or the error if t
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2390,7 +2390,7 @@ Upload a license to enable enterprise features.  __Minimum server version__: 4.0
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostTeamsApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostTeamsApi', () {
     // Add user to team
     //
-    // Add user to the team by user_id. ##### Permissions Must be authenticated and team be open to add self. For adding another user, authenticated user must have the `add_user_to_team` permission. 
+    // Add user to the team by user_id. ##### Permissions Must be authenticated and team be open to add self. For adding another user, authenticated user must have the `add_user_to_team` permission.
     //
     //Future<MmTeamMember> addTeamMember(String teamId, MmAddTeamMemberRequest mmAddTeamMemberRequest) async
     test('test addTeamMember', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Add user to team from invite
     //
-    // Using either an invite id or hash/data pair from an email invite link, add a user to a team. ##### Permissions Must be authenticated. 
+    // Using either an invite id or hash/data pair from an email invite link, add a user to a team. ##### Permissions Must be authenticated.
     //
     //Future<MmTeamMember> addTeamMemberFromInvite(String token) async
     test('test addTeamMemberFromInvite', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // Add multiple users to team
     //
-    // Add a number of users to the team by user_id. ##### Permissions Must be authenticated. Authenticated user must have the `add_user_to_team` permission. 
+    // Add a number of users to the team by user_id. ##### Permissions Must be authenticated. Authenticated user must have the `add_user_to_team` permission.
     //
     //Future<List<MmTeamMember>> addTeamMembers(String teamId, List<MmTeamMember> mmTeamMember, { bool graceful }) async
     test('test addTeamMembers', () async {
@@ -46,7 +45,7 @@ void main() {
 
     // Create a team
     //
-    // Create a new team on the system. ##### Permissions Must be authenticated and have the `create_team` permission. 
+    // Create a new team on the system. ##### Permissions Must be authenticated and have the `create_team` permission.
     //
     //Future<MmTeam> createTeam(MmCreateTeamRequest mmCreateTeamRequest) async
     test('test createTeam', () async {
@@ -55,7 +54,7 @@ void main() {
 
     // Get teams
     //
-    // For regular users only returns open teams. Users with the \"manage_system\" permission will return teams regardless of type. The result is based on query string parameters - page and per_page. ##### Permissions Must be authenticated. \"manage_system\" permission is required to show all teams. 
+    // For regular users only returns open teams. Users with the \"manage_system\" permission will return teams regardless of type. The result is based on query string parameters - page and per_page. ##### Permissions Must be authenticated. \"manage_system\" permission is required to show all teams.
     //
     //Future<List<MmTeam>> getAllTeams({ int page, int perPage, bool includeTotalCount, bool excludePolicyConstrained }) async
     test('test getAllTeams', () async {
@@ -64,7 +63,7 @@ void main() {
 
     // Get a team
     //
-    // Get a team on the system. ##### Permissions Must be authenticated and have the `view_team` permission. 
+    // Get a team on the system. ##### Permissions Must be authenticated and have the `view_team` permission.
     //
     //Future<MmTeam> getTeam(String teamId) async
     test('test getTeam', () async {
@@ -73,7 +72,7 @@ void main() {
 
     // Get a team by name
     //
-    // Get a team based on provided name string ##### Permissions Must be authenticated, team type is open and have the `view_team` permission. 
+    // Get a team based on provided name string ##### Permissions Must be authenticated, team type is open and have the `view_team` permission.
     //
     //Future<MmTeam> getTeamByName(String name) async
     test('test getTeamByName', () async {
@@ -82,7 +81,7 @@ void main() {
 
     // Get the team icon
     //
-    // Get the team icon of the team.  __Minimum server version__: 4.9  ##### Permissions User must be authenticated. In addition, team must be open or the user must have the `view_team` permission. 
+    // Get the team icon of the team.  __Minimum server version__: 4.9  ##### Permissions User must be authenticated. In addition, team must be open or the user must have the `view_team` permission.
     //
     //Future getTeamIcon(String teamId) async
     test('test getTeamIcon', () async {
@@ -91,7 +90,7 @@ void main() {
 
     // Get invite info for a team
     //
-    // Get the `name`, `display_name`, `description` and `id` for a team from the invite id.  __Minimum server version__: 4.0  ##### Permissions No authentication required. 
+    // Get the `name`, `display_name`, `description` and `id` for a team from the invite id.  __Minimum server version__: 4.0  ##### Permissions No authentication required.
     //
     //Future<MmGetTeamInviteInfo200Response> getTeamInviteInfo(String inviteId) async
     test('test getTeamInviteInfo', () async {
@@ -100,7 +99,7 @@ void main() {
 
     // Get a team member
     //
-    // Get a team member on the system. ##### Permissions Must be authenticated and have the `view_team` permission. 
+    // Get a team member on the system. ##### Permissions Must be authenticated and have the `view_team` permission.
     //
     //Future<MmTeamMember> getTeamMember(String teamId, String userId) async
     test('test getTeamMember', () async {
@@ -109,7 +108,7 @@ void main() {
 
     // Get team members
     //
-    // Get a page team members list based on query string parameters - team id, page and per page. ##### Permissions Must be authenticated and have the `view_team` permission. 
+    // Get a page team members list based on query string parameters - team id, page and per page. ##### Permissions Must be authenticated and have the `view_team` permission.
     //
     //Future<List<MmTeamMember>> getTeamMembers(String teamId, { int page, int perPage }) async
     test('test getTeamMembers', () async {
@@ -118,7 +117,7 @@ void main() {
 
     // Get team members by ids
     //
-    // Get a list of team members based on a provided array of user ids. ##### Permissions Must have `view_team` permission for the team. 
+    // Get a list of team members based on a provided array of user ids. ##### Permissions Must have `view_team` permission for the team.
     //
     //Future<List<MmTeamMember>> getTeamMembersByIds(String teamId, List<String> requestBody) async
     test('test getTeamMembersByIds', () async {
@@ -127,7 +126,7 @@ void main() {
 
     // Get team members for a user
     //
-    // Get a list of team members for a user. Useful for getting the ids of teams the user is on and the roles they have in those teams. ##### Permissions Must be logged in as the user or have the `edit_other_users` permission. 
+    // Get a list of team members for a user. Useful for getting the ids of teams the user is on and the roles they have in those teams. ##### Permissions Must be logged in as the user or have the `edit_other_users` permission.
     //
     //Future<List<MmTeamMember>> getTeamMembersForUser(String userId) async
     test('test getTeamMembersForUser', () async {
@@ -136,7 +135,7 @@ void main() {
 
     // Get a team stats
     //
-    // Get a team stats on the system. ##### Permissions Must be authenticated and have the `view_team` permission. 
+    // Get a team stats on the system. ##### Permissions Must be authenticated and have the `view_team` permission.
     //
     //Future<MmTeamStats> getTeamStats(String teamId) async
     test('test getTeamStats', () async {
@@ -145,7 +144,7 @@ void main() {
 
     // Get unreads for a team
     //
-    // Get the unread mention and message counts for a team for the specified user. ##### Permissions Must be the user or have `edit_other_users` permission and have `view_team` permission for the team. 
+    // Get the unread mention and message counts for a team for the specified user. ##### Permissions Must be the user or have `edit_other_users` permission and have `view_team` permission for the team.
     //
     //Future<MmTeamUnread> getTeamUnread(String userId, String teamId) async
     test('test getTeamUnread', () async {
@@ -154,7 +153,7 @@ void main() {
 
     // Get a user's teams
     //
-    // Get a list of teams that a user is on. ##### Permissions Must be authenticated as the user or have the `manage_system` permission. 
+    // Get a list of teams that a user is on. ##### Permissions Must be authenticated as the user or have the `manage_system` permission.
     //
     //Future<List<MmTeam>> getTeamsForUser(String userId) async
     test('test getTeamsForUser', () async {
@@ -163,7 +162,7 @@ void main() {
 
     // Get team unreads for a user
     //
-    // Get the count for unread messages and mentions in the teams the user is a member of. ##### Permissions Must be logged in. 
+    // Get the count for unread messages and mentions in the teams the user is a member of. ##### Permissions Must be logged in.
     //
     //Future<List<MmTeamUnread>> getTeamsUnreadForUser(String userId, String excludeTeam, { bool includeCollapsedThreads }) async
     test('test getTeamsUnreadForUser', () async {
@@ -172,7 +171,7 @@ void main() {
 
     // Import a Team from other application
     //
-    // Import a team into a existing team. Import users, channels, posts, hooks. ##### Permissions Must have `permission_import_team` permission. 
+    // Import a team into a existing team. Import users, channels, posts, hooks. ##### Permissions Must have `permission_import_team` permission.
     //
     //Future<MmImportTeam200Response> importTeam(String teamId, MultipartFile file, int filesize, String importFrom) async
     test('test importTeam', () async {
@@ -181,7 +180,7 @@ void main() {
 
     // Invalidate active email invitations
     //
-    // Invalidate active email invitations that have not been accepted by the user. ##### Permissions Must have `sysconsole_write_authentication` permission. 
+    // Invalidate active email invitations that have not been accepted by the user. ##### Permissions Must have `sysconsole_write_authentication` permission.
     //
     //Future<MmStatusOK> invalidateEmailInvites() async
     test('test invalidateEmailInvites', () async {
@@ -190,7 +189,7 @@ void main() {
 
     // Invite guests to the team by email
     //
-    // Invite guests to existing team channels usign the user's email.  The number of emails that can be sent is rate limited to 20 per hour with a burst of 20 emails. If the rate limit exceeds, the error message contains details on when to retry and when the timer will be reset.  __Minimum server version__: 5.16  ##### Permissions Must have `invite_guest` permission for the team. 
+    // Invite guests to existing team channels usign the user's email.  The number of emails that can be sent is rate limited to 20 per hour with a burst of 20 emails. If the rate limit exceeds, the error message contains details on when to retry and when the timer will be reset.  __Minimum server version__: 5.16  ##### Permissions Must have `invite_guest` permission for the team.
     //
     //Future<MmStatusOK> inviteGuestsToTeam(String teamId, MmInviteGuestsToTeamRequest mmInviteGuestsToTeamRequest) async
     test('test inviteGuestsToTeam', () async {
@@ -199,7 +198,7 @@ void main() {
 
     // Invite users to the team by email
     //
-    // Invite users to the existing team using the user's email.  The number of emails that can be sent is rate limited to 20 per hour with a burst of 20 emails. If the rate limit exceeds, the error message contains details on when to retry and when the timer will be reset. ##### Permissions Must have `invite_user` and `add_user_to_team` permissions for the team. 
+    // Invite users to the existing team using the user's email.  The number of emails that can be sent is rate limited to 20 per hour with a burst of 20 emails. If the rate limit exceeds, the error message contains details on when to retry and when the timer will be reset. ##### Permissions Must have `invite_user` and `add_user_to_team` permissions for the team.
     //
     //Future<MmStatusOK> inviteUsersToTeam(String teamId, List<String> requestBody) async
     test('test inviteUsersToTeam', () async {
@@ -208,7 +207,7 @@ void main() {
 
     // Patch a team
     //
-    // Partially update a team by providing only the fields you want to update. Omitted fields will not be updated. The fields that can be updated are defined in the request body, all other provided fields will be ignored. ##### Permissions Must have the `manage_team` permission. 
+    // Partially update a team by providing only the fields you want to update. Omitted fields will not be updated. The fields that can be updated are defined in the request body, all other provided fields will be ignored. ##### Permissions Must have the `manage_team` permission.
     //
     //Future<MmTeam> patchTeam(String teamId, MmPatchTeamRequest mmPatchTeamRequest) async
     test('test patchTeam', () async {
@@ -217,7 +216,7 @@ void main() {
 
     // Regenerate the Invite ID from a Team
     //
-    // Regenerates the invite ID used in invite links of a team ##### Permissions Must be authenticated and have the `manage_team` permission. 
+    // Regenerates the invite ID used in invite links of a team ##### Permissions Must be authenticated and have the `manage_team` permission.
     //
     //Future<MmTeam> regenerateTeamInviteId(String teamId) async
     test('test regenerateTeamInviteId', () async {
@@ -226,7 +225,7 @@ void main() {
 
     // Remove the team icon
     //
-    // Remove the team icon for the team.  __Minimum server version__: 4.10  ##### Permissions Must be authenticated and have the `manage_team` permission. 
+    // Remove the team icon for the team.  __Minimum server version__: 4.10  ##### Permissions Must be authenticated and have the `manage_team` permission.
     //
     //Future<MmStatusOK> removeTeamIcon(String teamId) async
     test('test removeTeamIcon', () async {
@@ -235,7 +234,7 @@ void main() {
 
     // Remove user from team
     //
-    // Delete the team member object for a user, effectively removing them from a team. ##### Permissions Must be logged in as the user or have the `remove_user_from_team` permission. 
+    // Delete the team member object for a user, effectively removing them from a team. ##### Permissions Must be logged in as the user or have the `remove_user_from_team` permission.
     //
     //Future<MmStatusOK> removeTeamMember(String teamId, String userId) async
     test('test removeTeamMember', () async {
@@ -244,7 +243,7 @@ void main() {
 
     // Restore a team
     //
-    // Restore a team that was previously soft deleted.  __Minimum server version__: 5.24  ##### Permissions Must have the `manage_team` permission. 
+    // Restore a team that was previously soft deleted.  __Minimum server version__: 5.24  ##### Permissions Must have the `manage_team` permission.
     //
     //Future<MmTeam> restoreTeam(String teamId) async
     test('test restoreTeam', () async {
@@ -253,7 +252,7 @@ void main() {
 
     // Search files in a team
     //
-    // Search for files in a team based on file name, extention and file content (if file content extraction is enabled and supported for the files). __Minimum server version__: 5.34 ##### Permissions Must be authenticated and have the `view_team` permission. 
+    // Search for files in a team based on file name, extention and file content (if file content extraction is enabled and supported for the files). __Minimum server version__: 5.34 ##### Permissions Must be authenticated and have the `view_team` permission.
     //
     //Future<MmFileInfoList> searchFiles(String teamId, String terms, bool isOrSearch, { int timeZoneOffset, bool includeDeletedChannels, int page, int perPage }) async
     test('test searchFiles', () async {
@@ -262,7 +261,7 @@ void main() {
 
     // Search teams
     //
-    // Search teams based on search term and options provided in the request body.  ##### Permissions Logged in user only shows open teams Logged in user with \"manage_system\" permission shows all teams 
+    // Search teams based on search term and options provided in the request body.  ##### Permissions Logged in user only shows open teams Logged in user with \"manage_system\" permission shows all teams
     //
     //Future<MmSearchTeams200Response> searchTeams(MmSearchTeamsRequest mmSearchTeamsRequest) async
     test('test searchTeams', () async {
@@ -271,7 +270,7 @@ void main() {
 
     // Sets the team icon
     //
-    // Sets the team icon for the team.  __Minimum server version__: 4.9  ##### Permissions Must be authenticated and have the `manage_team` permission. 
+    // Sets the team icon for the team.  __Minimum server version__: 4.9  ##### Permissions Must be authenticated and have the `manage_team` permission.
     //
     //Future<MmStatusOK> setTeamIcon(String teamId, MultipartFile image) async
     test('test setTeamIcon', () async {
@@ -280,7 +279,7 @@ void main() {
 
     // Delete a team
     //
-    // Soft deletes a team, by marking the team as deleted in the database. Soft deleted teams will not be accessible in the user interface.  Optionally use the permanent query parameter to hard delete the team for compliance reasons. As of server version 5.0, to use this feature `ServiceSettings.EnableAPITeamDeletion` must be set to `true` in the server's configuration. ##### Permissions Must have the `manage_team` permission. 
+    // Soft deletes a team, by marking the team as deleted in the database. Soft deleted teams will not be accessible in the user interface.  Optionally use the permanent query parameter to hard delete the team for compliance reasons. As of server version 5.0, to use this feature `ServiceSettings.EnableAPITeamDeletion` must be set to `true` in the server's configuration. ##### Permissions Must have the `manage_team` permission.
     //
     //Future<MmStatusOK> softDeleteTeam(String teamId, { bool permanent }) async
     test('test softDeleteTeam', () async {
@@ -289,7 +288,7 @@ void main() {
 
     // Check if team exists
     //
-    // Check if the team exists based on a team name. ##### Permissions Must be authenticated. 
+    // Check if the team exists based on a team name. ##### Permissions Must be authenticated.
     //
     //Future<MmTeamExists> teamExists(String name) async
     test('test teamExists', () async {
@@ -298,7 +297,7 @@ void main() {
 
     // Team members minus group members.
     //
-    // Get the set of users who are members of the team minus the set of users who are members of the given groups. Each user object contains an array of group objects representing the group memberships for that user. Each user object contains the boolean fields `scheme_guest`, `scheme_user`, and `scheme_admin` representing the roles that user has for the given team.  ##### Permissions Must have `manage_system` permission.  __Minimum server version__: 5.14 
+    // Get the set of users who are members of the team minus the set of users who are members of the given groups. Each user object contains an array of group objects representing the group memberships for that user. Each user object contains the boolean fields `scheme_guest`, `scheme_user`, and `scheme_admin` representing the roles that user has for the given team.  ##### Permissions Must have `manage_system` permission.  __Minimum server version__: 5.14
     //
     //Future teamMembersMinusGroupMembers(String teamId, String groupIds, { int page, int perPage }) async
     test('test teamMembersMinusGroupMembers', () async {
@@ -307,7 +306,7 @@ void main() {
 
     // Update a team
     //
-    // Update a team by providing the team object. The fields that can be updated are defined in the request body, all other provided fields will be ignored. ##### Permissions Must have the `manage_team` permission. 
+    // Update a team by providing the team object. The fields that can be updated are defined in the request body, all other provided fields will be ignored. ##### Permissions Must have the `manage_team` permission.
     //
     //Future<MmTeam> updateTeam(String teamId, MmUpdateTeamRequest mmUpdateTeamRequest) async
     test('test updateTeam', () async {
@@ -316,7 +315,7 @@ void main() {
 
     // Update a team member roles
     //
-    // Update a team member roles. Valid team roles are \"team_user\", \"team_admin\" or both of them. Overwrites any previously assigned team roles. ##### Permissions Must be authenticated and have the `manage_team_roles` permission. 
+    // Update a team member roles. Valid team roles are \"team_user\", \"team_admin\" or both of them. Overwrites any previously assigned team roles. ##### Permissions Must be authenticated and have the `manage_team_roles` permission.
     //
     //Future<MmStatusOK> updateTeamMemberRoles(String teamId, String userId, MmUpdateUserRolesRequest mmUpdateUserRolesRequest) async
     test('test updateTeamMemberRoles', () async {
@@ -325,7 +324,7 @@ void main() {
 
     // Update the scheme-derived roles of a team member.
     //
-    // Update a team member's scheme_admin/scheme_user properties. Typically this should either be `scheme_admin=false, scheme_user=true` for ordinary team member, or `scheme_admin=true, scheme_user=true` for a team admin.  __Minimum server version__: 5.0  ##### Permissions Must be authenticated and have the `manage_team_roles` permission. 
+    // Update a team member's scheme_admin/scheme_user properties. Typically this should either be `scheme_admin=false, scheme_user=true` for ordinary team member, or `scheme_admin=true, scheme_user=true` for a team admin.  __Minimum server version__: 5.0  ##### Permissions Must be authenticated and have the `manage_team_roles` permission.
     //
     //Future<MmStatusOK> updateTeamMemberSchemeRoles(String teamId, String userId, MmUpdateTeamMemberSchemeRolesRequest mmUpdateTeamMemberSchemeRolesRequest) async
     test('test updateTeamMemberSchemeRoles', () async {
@@ -334,7 +333,7 @@ void main() {
 
     // Update teams's privacy
     //
-    // Updates team's privacy allowing changing a team from Public (open) to Private (invitation only) and back.  __Minimum server version__: 5.24  ##### Permissions `manage_team` permission for the team of the team. 
+    // Updates team's privacy allowing changing a team from Public (open) to Private (invitation only) and back.  __Minimum server version__: 5.24  ##### Permissions `manage_team` permission for the team of the team.
     //
     //Future<MmTeam> updateTeamPrivacy(String teamId, MmUpdateTeamPrivacyRequest mmUpdateTeamPrivacyRequest) async
     test('test updateTeamPrivacy', () async {
@@ -343,12 +342,11 @@ void main() {
 
     // Set a team's scheme
     //
-    // Set a team's scheme, more specifically sets the scheme_id value of a team record.  ##### Permissions Must have `manage_system` permission.  __Minimum server version__: 5.0 
+    // Set a team's scheme, more specifically sets the scheme_id value of a team record.  ##### Permissions Must have `manage_system` permission.  __Minimum server version__: 5.0
     //
     //Future<MmStatusOK> updateTeamScheme(String teamId, MmUpdateTeamSchemeRequest mmUpdateTeamSchemeRequest) async
     test('test updateTeamScheme', () async {
       // TODO
     });
-
   });
 }

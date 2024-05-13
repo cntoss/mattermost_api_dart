@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostEmojiApi
+# mattermost_api_plus.api.MattermostEmojiApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -28,7 +28,7 @@ Get a list of custom emoji with names starting with or matching the provided nam
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -91,7 +91,7 @@ Create a custom emoji for the team. ##### Permissions Must be authenticated.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -156,7 +156,7 @@ Delete a custom emoji. ##### Permissions Must have the `manage_team` or `manage_
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -219,7 +219,7 @@ Get some metadata for a custom emoji. ##### Permissions Must be authenticated.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -282,7 +282,7 @@ Get some metadata for a custom emoji using its name. ##### Permissions Must be a
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -345,7 +345,7 @@ Get the image for a custom emoji. ##### Permissions Must be authenticated.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -407,7 +407,7 @@ Get a page of metadata for custom emoji on the system. Since server version 4.7,
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -474,7 +474,7 @@ Search for custom emoji by name based on search criteria provided in the request
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

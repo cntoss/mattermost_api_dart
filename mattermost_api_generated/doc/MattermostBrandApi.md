@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostBrandApi
+# mattermost_api_plus.api.MattermostBrandApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -23,7 +23,7 @@ Deletes the previously uploaded brand image. Returns 404 if no brand image has b
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -82,7 +82,7 @@ Get the previously uploaded brand image. Returns 404 if no brand image has been 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -141,7 +141,7 @@ Uploads a brand image. ##### Permissions Must have `manage_system` permission.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

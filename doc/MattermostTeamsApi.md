@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostTeamsApi
+# mattermost_api_plus.api.MattermostTeamsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -57,7 +57,7 @@ Add user to the team by user_id. ##### Permissions Must be authenticated and tea
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -122,7 +122,7 @@ Using either an invite id or hash/data pair from an email invite link, add a use
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -185,7 +185,7 @@ Add a number of users to the team by user_id. ##### Permissions Must be authenti
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -252,7 +252,7 @@ Create a new team on the system. ##### Permissions Must be authenticated and hav
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -315,7 +315,7 @@ For regular users only returns open teams. Users with the \"manage_system\" perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -384,7 +384,7 @@ Get a team on the system. ##### Permissions Must be authenticated and have the `
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -447,7 +447,7 @@ Get a team based on provided name string ##### Permissions Must be authenticated
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -510,7 +510,7 @@ Get the team icon of the team.  __Minimum server version__: 4.9  ##### Permissio
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -572,7 +572,7 @@ Get the `name`, `display_name`, `description` and `id` for a team from the invit
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -635,7 +635,7 @@ Get a team member on the system. ##### Permissions Must be authenticated and hav
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -700,7 +700,7 @@ Get a page team members list based on query string parameters - team id, page an
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -767,7 +767,7 @@ Get a list of team members based on a provided array of user ids. ##### Permissi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -832,7 +832,7 @@ Get a list of team members for a user. Useful for getting the ids of teams the u
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -895,7 +895,7 @@ Get a team stats on the system. ##### Permissions Must be authenticated and have
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -958,7 +958,7 @@ Get the unread mention and message counts for a team for the specified user. ###
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1023,7 +1023,7 @@ Get a list of teams that a user is on. ##### Permissions Must be authenticated a
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1086,7 +1086,7 @@ Get the count for unread messages and mentions in the teams the user is a member
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1153,7 +1153,7 @@ Import a team into a existing team. Import users, channels, posts, hooks. ##### 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1222,7 +1222,7 @@ Invalidate active email invitations that have not been accepted by the user. ###
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1281,7 +1281,7 @@ Invite guests to existing team channels usign the user's email.  The number of e
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1346,7 +1346,7 @@ Invite users to the existing team using the user's email.  The number of emails 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1411,7 +1411,7 @@ Partially update a team by providing only the fields you want to update. Omitted
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1476,7 +1476,7 @@ Regenerates the invite ID used in invite links of a team ##### Permissions Must 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1539,7 +1539,7 @@ Remove the team icon for the team.  __Minimum server version__: 4.10  ##### Perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1602,7 +1602,7 @@ Delete the team member object for a user, effectively removing them from a team.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1667,7 +1667,7 @@ Restore a team that was previously soft deleted.  __Minimum server version__: 5.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1730,7 +1730,7 @@ Search for files in a team based on file name, extention and file content (if fi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1805,7 +1805,7 @@ Search teams based on search term and options provided in the request body.  ###
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1868,7 +1868,7 @@ Sets the team icon for the team.  __Minimum server version__: 4.9  ##### Permiss
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1933,7 +1933,7 @@ Soft deletes a team, by marking the team as deleted in the database. Soft delete
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -1998,7 +1998,7 @@ Check if the team exists based on a team name. ##### Permissions Must be authent
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2061,7 +2061,7 @@ Get the set of users who are members of the team minus the set of users who are 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2129,7 +2129,7 @@ Update a team by providing the team object. The fields that can be updated are d
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2194,7 +2194,7 @@ Update a team member roles. Valid team roles are \"team_user\", \"team_admin\" o
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2261,7 +2261,7 @@ Update a team member's scheme_admin/scheme_user properties. Typically this shoul
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2328,7 +2328,7 @@ Updates team's privacy allowing changing a team from Public (open) to Private (i
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -2393,7 +2393,7 @@ Set a team's scheme, more specifically sets the scheme_id value of a team record
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

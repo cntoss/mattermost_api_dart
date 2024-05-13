@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostElasticsearchApi
+# mattermost_api_plus.api.MattermostElasticsearchApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -22,7 +22,7 @@ Deletes all Elasticsearch indexes and their contents. After calling this endpoin
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -81,7 +81,7 @@ Test the current Elasticsearch configuration to see if the Elasticsearch server 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostClusterApi
 void main() {
@@ -19,12 +18,11 @@ void main() {
   group('tests for MattermostClusterApi', () {
     // Get cluster status
     //
-    // Get a set of information for each node in the cluster, useful for checking the status and health of each node. ##### Permissions Must have `manage_system` permission. 
+    // Get a set of information for each node in the cluster, useful for checking the status and health of each node. ##### Permissions Must have `manage_system` permission.
     //
     //Future<List<MmClusterInfo>> getClusterStatus() async
     test('test getClusterStatus', () async {
       // TODO
     });
-
   });
 }

@@ -1,8 +1,8 @@
-# mattermost_api.model.MmIncomingWebhook
+# mattermost_api_plus.model.MmIncomingWebhook
 
 ## Load the package and get an instance of this class.
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

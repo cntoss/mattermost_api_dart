@@ -1,8 +1,8 @@
-# mattermost_api.model.MmRegenCommandToken200Response
+# mattermost_api_plus.model.MmRegenCommandToken200Response
 
 ## Load the package and get an instance of this class.
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostClusterApi
+# mattermost_api_plus.api.MattermostClusterApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -21,7 +21,7 @@ Get a set of information for each node in the cluster, useful for checking the s
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

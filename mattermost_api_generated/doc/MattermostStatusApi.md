@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostStatusApi
+# mattermost_api_plus.api.MattermostStatusApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -27,7 +27,7 @@ Get user status by id from the server. ##### Permissions Must be authenticated.
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -90,7 +90,7 @@ Get a list of user statuses by id from the server. ##### Permissions Must be aut
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -153,7 +153,7 @@ Deletes a user's recent custom status by removing the specific status from the r
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -217,7 +217,7 @@ Deletes a user's recent custom status by removing the specific status from the r
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -281,7 +281,7 @@ Unsets a user's custom status by updating the user's props and updates the user 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -343,7 +343,7 @@ Updates a user's custom status by setting the value in the user's props and upda
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -407,7 +407,7 @@ Manually set a user's status. When setting a user's status, the status will rema
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostPreferencesApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostPreferencesApi', () {
     // Delete user's preferences
     //
-    // Delete a list of the user's preferences. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission. 
+    // Delete a list of the user's preferences. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission.
     //
     //Future<MmStatusOK> deletePreferences(String userId, List<MmPreference> mmPreference) async
     test('test deletePreferences', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Get the user's preferences
     //
-    // Get a list of the user's preferences. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission. 
+    // Get a list of the user's preferences. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission.
     //
     //Future<List<MmPreference>> getPreferences(String userId) async
     test('test getPreferences', () async {
@@ -37,7 +36,7 @@ void main() {
 
     // List a user's preferences by category
     //
-    // Lists the current user's stored preferences in the given category. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission. 
+    // Lists the current user's stored preferences in the given category. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission.
     //
     //Future<List<MmPreference>> getPreferencesByCategory(String userId, String category) async
     test('test getPreferencesByCategory', () async {
@@ -46,7 +45,7 @@ void main() {
 
     // Get a specific user preference
     //
-    // Gets a single preference for the current user with the given category and name. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission. 
+    // Gets a single preference for the current user with the given category and name. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission.
     //
     //Future<MmPreference> getPreferencesByCategoryByName(String userId, String category, String preferenceName) async
     test('test getPreferencesByCategoryByName', () async {
@@ -55,12 +54,11 @@ void main() {
 
     // Save the user's preferences
     //
-    // Save a list of the user's preferences. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission. 
+    // Save a list of the user's preferences. ##### Permissions Must be logged in as the user being updated or have the `edit_other_users` permission.
     //
     //Future<MmStatusOK> updatePreferences(String userId, List<MmPreference> mmPreference) async
     test('test updatePreferences', () async {
       // TODO
     });
-
   });
 }

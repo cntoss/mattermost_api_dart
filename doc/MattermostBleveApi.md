@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostBleveApi
+# mattermost_api_plus.api.MattermostBleveApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -21,7 +21,7 @@ Deletes all Bleve indexes and their contents. After calling this endpoint, it is
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

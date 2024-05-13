@@ -15,13 +15,13 @@ This library is a full implementation of the [Mattermost Client API 4.0.0](https
 Install the package
 
 ```bash
-dart pub add mattermost_api
+dart pub add mattermost_api_plus
 ```
 
 Import the package in your Dart file
 
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 ## Creating a client
@@ -94,7 +94,7 @@ Note: the websocket API is significantly different from the REST API, and this l
 ## More Details
 
 - [Read the Auto-Generated Documentation](GENERATED_README.md).
-- [Read the Dart API Docs](https://pub.dev/documentation/mattermost_api/latest/mattermost.api/MattermostApiClient-class.html)
+- [Read the Dart API Docs](https://pub.dev/documentation/mattermost_api_plus/latest/mattermost.api/MattermostApiClient-class.html)
 
 ## Issues Resolved
 

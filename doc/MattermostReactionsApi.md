@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostReactionsApi
+# mattermost_api_plus.api.MattermostReactionsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -24,7 +24,7 @@ Deletes a reaction made by a user from the given post. ##### Permissions Must be
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -91,7 +91,7 @@ Get a list of reactions made by all users to a given post. ##### Permissions Mus
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -154,7 +154,7 @@ Get a list of reactions made by all users to a given post. ##### Permissions Mus
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -217,7 +217,7 @@ Create a reaction. ##### Permissions Must have `read_channel` permission for the
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

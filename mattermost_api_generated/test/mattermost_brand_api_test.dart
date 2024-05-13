@@ -8,9 +8,8 @@
 // ignore_for_file: constant_identifier_names
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 import 'package:test/test.dart';
-
 
 /// tests for MattermostBrandApi
 void main() {
@@ -19,7 +18,7 @@ void main() {
   group('tests for MattermostBrandApi', () {
     // Delete current brand image
     //
-    // Deletes the previously uploaded brand image. Returns 404 if no brand image has been uploaded. ##### Permissions Must have `manage_system` permission. __Minimum server version: 5.6__ 
+    // Deletes the previously uploaded brand image. Returns 404 if no brand image has been uploaded. ##### Permissions Must have `manage_system` permission. __Minimum server version: 5.6__
     //
     //Future<MmStatusOK> deleteBrandImage() async
     test('test deleteBrandImage', () async {
@@ -28,7 +27,7 @@ void main() {
 
     // Get brand image
     //
-    // Get the previously uploaded brand image. Returns 404 if no brand image has been uploaded. ##### Permissions No permission required. 
+    // Get the previously uploaded brand image. Returns 404 if no brand image has been uploaded. ##### Permissions No permission required.
     //
     //Future<String> getBrandImage() async
     test('test getBrandImage', () async {
@@ -37,12 +36,11 @@ void main() {
 
     // Upload brand image
     //
-    // Uploads a brand image. ##### Permissions Must have `manage_system` permission. 
+    // Uploads a brand image. ##### Permissions Must have `manage_system` permission.
     //
     //Future<MmStatusOK> uploadBrandImage(MultipartFile image) async
     test('test uploadBrandImage', () async {
       // TODO
     });
-
   });
 }

@@ -5,7 +5,7 @@
 import subprocess
 import os
 
-OUTPUT = 'mattermost_api_generated'
+OUTPUT = 'mattermost_api_plus_generated'
 INPUT = 'mattermost-swagger.json'
 CONFIG = 'openapi_config.yaml'
 
@@ -36,7 +36,7 @@ def dogen(use_local=True, post_process=False):
 
 
 print('removing previously generated files')
-os.system(f'rm -rf mattermost_api_generated/*')
+os.system(f'rm -rf mattermost_api_plus_generated/*')
 os.system(f'rm -rf lib/generated/*')
 os.system(f'rm -rf test/generated/*')
 os.system(f'rm -rf doc/*')

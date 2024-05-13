@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 void debug(Object s) {
   var enc = JsonEncoder.withIndent('  ');

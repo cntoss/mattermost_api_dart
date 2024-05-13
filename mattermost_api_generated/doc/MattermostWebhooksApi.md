@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostWebhooksApi
+# mattermost_api_plus.api.MattermostWebhooksApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -31,7 +31,7 @@ Create an incoming webhook for a channel. ##### Permissions `manage_webhooks` fo
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -94,7 +94,7 @@ Create an outgoing webhook for a team. ##### Permissions `manage_webhooks` for t
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -157,7 +157,7 @@ Delete an incoming webhook given the hook id. ##### Permissions `manage_webhooks
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -220,7 +220,7 @@ Delete an outgoing webhook given the hook id. ##### Permissions `manage_webhooks
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -283,7 +283,7 @@ Get an incoming webhook given the hook id. ##### Permissions `manage_webhooks` f
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -346,7 +346,7 @@ Get a page of a list of incoming webhooks. Optionally filter for a specific team
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -413,7 +413,7 @@ Get an outgoing webhook given the hook id. ##### Permissions `manage_webhooks` f
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -476,7 +476,7 @@ Get a page of a list of outgoing webhooks. Optionally filter for a specific team
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -545,7 +545,7 @@ Regenerate the token for the outgoing webhook. ##### Permissions `manage_webhook
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -608,7 +608,7 @@ Update an incoming webhook given the hook id. ##### Permissions `manage_webhooks
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -673,7 +673,7 @@ Update an outgoing webhook given the hook id. ##### Permissions `manage_webhooks
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //

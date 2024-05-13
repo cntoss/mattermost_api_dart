@@ -1,8 +1,8 @@
-# mattermost_api.api.MattermostBotsApi
+# mattermost_api_plus.api.MattermostBotsApi
 
 ## Load the API package
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 ```
 
 All URIs are relative to *http://your-mattermost-url.com/api/v4*
@@ -32,7 +32,7 @@ Assign a bot to a specified user. ##### Permissions Must have `manage_bots` perm
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -97,7 +97,7 @@ Convert a bot into a user.  __Minimum server version__: 5.26  ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -164,7 +164,7 @@ Convert a user into a bot.  __Minimum server version__: 5.26  ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -227,7 +227,7 @@ Create a new bot account on the system. Username is required. ##### Permissions 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -290,7 +290,7 @@ Delete bot's LHS icon image based on bot_user_id string parameter. ##### Permiss
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -353,7 +353,7 @@ Disable a bot. ##### Permissions Must have `manage_bots` permission.  __Minimum 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -416,7 +416,7 @@ Enable a bot. ##### Permissions Must have `manage_bots` permission.  __Minimum s
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -479,7 +479,7 @@ Get a bot specified by its bot id. ##### Permissions Must have `read_bots` permi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -544,7 +544,7 @@ Get a bot's LHS icon image based on bot_user_id string parameter. ##### Permissi
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -606,7 +606,7 @@ Get a page of a list of bots. ##### Permissions Must have `read_bots` permission
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -675,7 +675,7 @@ Partially update a bot by providing only the fields you want to update. Omitted 
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
@@ -740,7 +740,7 @@ Set a bot's LHS icon image based on bot_user_id string parameter. Icon image mus
 
 ### Example
 ```dart
-import 'package:mattermost_api/api.dart';
+import 'package:mattermost_api_plus/api.dart';
 
 // Instantiate your client...
 //
