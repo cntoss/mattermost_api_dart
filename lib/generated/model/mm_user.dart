@@ -35,6 +35,7 @@ class MmUser {
     this.timezone,
     this.termsOfServiceId,
     this.termsOfServiceCreateAt,
+    this.isBot,
   });
 
   ///
@@ -218,6 +219,8 @@ class MmUser {
   ///
   int? termsOfServiceCreateAt;
 
+  bool? isBot;
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -358,8 +361,10 @@ class MmUser {
       // Note 2: this code is stripped in release mode!
       assert(() {
         requiredKeys.forEach((key) {
-          assert(json.containsKey(key), 'Required key "MmUser[$key]" is missing from JSON.');
-          assert(json[key] != null, 'Required key "MmUser[$key]" has a null value in JSON.');
+          assert(json.containsKey(key),
+              'Required key "MmUser[$key]" is missing from JSON.');
+          assert(json[key] != null,
+              'Required key "MmUser[$key]" has a null value in JSON.');
         });
         return true;
       }());
@@ -386,7 +391,9 @@ class MmUser {
         mfaActive: mapValueOfType<bool>(json, r'mfa_active'),
         timezone: MmTimezone.fromJson(json[r'timezone']),
         termsOfServiceId: mapValueOfType<String>(json, r'terms_of_service_id'),
-        termsOfServiceCreateAt: mapValueOfType<int>(json, r'terms_of_service_create_at'),
+        termsOfServiceCreateAt:
+            mapValueOfType<int>(json, r'terms_of_service_create_at'),
+        isBot: mapValueOfType<bool>(json, r'is_bot'),
       );
     }
     return null;
